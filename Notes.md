@@ -487,4 +487,76 @@ Feel free to use this detailed Markdown content for your exam preparation or stu
 ----------
 
 
+# V7. Docker Basic Commands
+
+- **Introduction:**
+  - Introduction to Docker basic commands by Mahendra Mehra, Senior Training Lead and Evangelist at Oracle University.
+
+- **Docker Installation and Cloud Shell:**
+  - Docker commands require Docker to be installed on local terminals.
+  - Cloud Shell in OCI provides pre-configured Docker.
+  - Access Cloud Shell by clicking the icon in the top right corner.
+
+- **Checking Docker Version:**
+  - Use `docker -v` to check the installed Docker version.
+
+- **Docker Run Command:**
+  - Use `docker run` to check and containerize an image.
+  - If image not found locally, Docker pulls it from the repository.
+  - `docker images` shows downloaded images.
+
+- **Docker PS Command:**
+  - `docker ps` lists running containers.
+  - `docker ps -a` lists all stored containers.
+
+- **Removing Containers:**
+  - Use `docker rm` with container name or ID to remove a container.
+
+- **Interactive Access to Containers:**
+  - `docker run -it` pulls an image and provides interactive shell access.
+  - Use `exit` or Control D to exit the container's shell.
+
+- **Docker Run with Port Mapping:**
+  - `docker run -d -p` maps host port to container's port.
+  - Check container's status using `docker ps`.
+
+- **Curl Command to Test Port Mapping:**
+  - Use `curl` to test the connection with the container's port.
+  - Cloud Shell limitations due to lack of public IP.
+
+- **Stopping and Starting Containers:**
+  - `docker stop` followed by container ID stops a container.
+  - `docker start` followed by container ID restarts a container.
+  - `docker restart` restarts a container.
+
+- **Viewing Port Mapping:**
+  - `docker port` displays container's port mapping.
+
+- **Viewing Logs:**
+  - `docker logs` followed by container ID shows container logs.
+
+- **Inspecting Container:**
+  - `docker inspect` followed by container ID provides detailed container information.
+  - Displays state, image, hardware, storage, network settings, etc.
+
+- **Top Processes in Container:**
+  - `docker top` followed by container ID lists top processes in a container.
+
+- **Executing Command in Running Container:**
+  - `docker exec -it` followed by container ID and command gives shell access.
+
+- **Conclusion:**
+  - Demonstrated Docker basic commands for creating and managing containers.
+  - Covered pulling images, port mapping, containerization, access, logs, and more.
+
+- **Closing:**
+  - Mahendra Mehra concludes the demo, inviting viewers to the next one.
+  - Thanks for watching.
+
+Feel free to use this detailed Markdown content for your exam preparation or study needs!
+
+
+
+-----------
+
 
